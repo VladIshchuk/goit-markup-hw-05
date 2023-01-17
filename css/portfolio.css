@@ -120,8 +120,12 @@ body{
 
 }
 
+.links span{
+    color: var(--ocean-color);
+}
+
 .links a{
-    transition: color 250ms linear;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links :hover,
@@ -154,7 +158,7 @@ body{
     font-weight: 400;
 font-size: 16px;
 line-height:calc(24/16);
-transition: color 250ms linear;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts{
@@ -187,7 +191,10 @@ font-family: inherit;
 border: 1px solid var(--flower-color);
 border-radius: 4px;
 padding: 12px 24px;
-transition: background-color 250ms linear, box-shadow 250ms linear, color 250ms linear;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+ color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+ border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-navi{
@@ -241,7 +248,7 @@ transition: background-color 250ms linear, box-shadow 250ms linear, color 250ms 
     padding-bottom: 40px;
     height: 100%;
     transform: translateY(100%);
-    transition: transform 250ms linear;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-tpo-wrap{
@@ -277,7 +284,7 @@ line-height: calc(24/20);
 
 .workes-link{
     display: block;
-    transition: box-shadow 250ms linear ;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .txt-container{
@@ -375,7 +382,7 @@ line-height: calc(24/16);
  display: flex;
  align-items: center;
  justify-content: center;
- transition: background-color 250ms linear ;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .footer-punkts:hover,
