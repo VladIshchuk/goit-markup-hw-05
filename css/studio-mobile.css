@@ -1,0 +1,34 @@
+@media screen and (min-width:480px) {
+    .container{
+        width: 428px;
+        
+    }
+
+    .worklist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .customers-penkts{
+        width: 190px;
+    }
+.footer{
+    width: 100%;
+}
+
+.customers-penkts{
+    width: 190px;
+
+}
+
+.customers-list{
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cus-cont{
+    padding-left: auto;
+    padding-right: auto;
+}
+}
