@@ -162,6 +162,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 340px;
 margin-right: auto;
 margin-left: auto;
+text-align: center;
 }
 
 .hero{
@@ -201,6 +202,8 @@ border: 0px;
 margin: 64px auto 0 ;
 display: block;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+margin-left: auto;
+margin-right: auto;
 }
 
 /* ---------------------------------------------------- */
@@ -266,24 +269,11 @@ line-height: calc(24/16);
 /* ------------------------------------------- */
 
 .Our-Spec{
-    padding-bottom: 120px;
+    display: none;
 }
 
-.what-doing{
-color: var(--navy-color);
-text-transform: capitalize;
-font-weight: 700;
-font-size: 36px;
-line-height: calc(40/36);
-margin-bottom: 72px;
-text-align: center;
-}
 
-.worksis{
-    list-style: none;
-    display: flex;
-    gap: 24px;
-}
+
 
 /* -------------------------------------------- */
 
@@ -291,6 +281,8 @@ text-align: center;
     background-color: var(--cloud-color);
     padding-top: 96px;
     padding-bottom: 128px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .Our-Team{
@@ -311,6 +303,7 @@ text-align: center;
     margin-top: 72px;
     width: auto;
     justify-content: center;
+    max-width: 264px;
 }
 
 .worklist li{

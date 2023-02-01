@@ -1,8 +1,29 @@
 @media screen and (min-width:1200px){
     
     .container{
-        width: 1200px;
+        width: 1158px;
     }
+    .Our-Spec{
+        padding-bottom: 120px;
+    }
+    
+    .what-doing{
+    color: var(--navy-color);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40/36);
+    margin-bottom: 72px;
+    padding-top: 120px;
+    text-align: center;
+    }
+    
+    .worksis{
+        list-style: none;
+        display: flex;
+        gap: 24px;
+    }
+    
 
     .team{
         padding-top: 120px;
@@ -16,6 +37,8 @@
         align-items: center;
         justify-content: center;
     }
+
+
 
     .customers-penkts{
         width: 168px;
@@ -40,7 +63,9 @@
     }
 
     .foot-sube{
-        float: left;
+padding: 0;
+margin-left: 80px;
+
 
     }
 
@@ -60,4 +85,11 @@
     margin-left: auto;
 }
 
+    .link-cont{
+        margin-left: 120px;
+    }
+    
+    .none-cont{
+        display: flex;
+    }
 }

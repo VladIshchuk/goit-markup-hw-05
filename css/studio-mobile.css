@@ -4,6 +4,8 @@
         
     }
 
+    .Our-Spec{display: none;}
+
     .worklist{
         display: flex;
         flex-wrap: wrap;
